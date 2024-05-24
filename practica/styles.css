@@ -1,0 +1,65 @@
+html{
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+/* HEADER */
+.header{
+    background-color: hotpink;
+}
+.logo{
+    background-color: cyan;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color: darkcyan;
+    width:60%
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.login{
+    background-color: cadetblue;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ESTRUCTURA CAJAS */
+
+.contenedor_padre{
+    background-color: grey;
+    display: flex;    
+}
+.caja{
+    height: 200px;
+    width: 200px;
+}
+.rojo{
+background-color: red;
+}
+.verde{
+background-color: hsl(130, 100%, 59%);
+}
+.azul{
+background-color: #0066ff;
+}
+.rosa{
+background-color: pink;
+}
+.amarillo{
+background-color: yellow;
+}
+.coral{
+    background-color: lightcoral;
+    padding: 1rem;
+}
+
